@@ -1,0 +1,17 @@
+{
+    "name": "runtime.liu-xiao-guo",
+    "description": "description of runtime",
+    "architecture": "@CLICK_ARCH@",
+    "title": "runtime",
+    "hooks": {
+        "runtime": {
+            "apparmor": "runtime/runtime.apparmor",
+            "desktop":  "runtime/runtime.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "XiaoGuo, Liu <xiaoguo.liu@canonical.com>",
+    "framework" : "ubuntu-sdk-15.04"
+}
+
+
